@@ -1,0 +1,34 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+    useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        minSdkVersion 12
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile files('libs/universal-image-loader-1.9.2-with-sources.jar')
+    compile files('libs/xUtils-2.6.14.jar')
+    //    compile files('libs/gson-2.2.2.jar')
+//    compile 'com.google.http-client:google-http-client-android:+'
+//    compile 'com.google.api-client:google-api-client-android:+'
+//    compile 'com.google.api-client:google-api-client-gson:+'
+//    compile 'com.google.code.gson:gson:2.2.4'
+    compile files('libs/nine-old-androids-2.4.0.jar')
+    compile files('libs/commonsdk_201501072105.jar')
+}

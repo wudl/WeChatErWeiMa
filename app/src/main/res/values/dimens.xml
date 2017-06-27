@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="dp_066">0.66dp</dimen>
+    <dimen name="dp_2">2dp</dimen>
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="dp_6">6dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_14">14dp</dimen>
+    <dimen name="dp_18">18dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_22">22dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="dp_36">36dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_60">60dp</dimen>
+    <dimen name="dp_72">72dp</dimen>
+    <dimen name="dp_80">80dp</dimen>
+    <dimen name="dp_90">90dp</dimen>
+    <dimen name="dp_100">100dp</dimen>
+    <dimen name="dp_110">110dp</dimen>
+    <dimen name="dp_120">120dp</dimen>
+
+    <dimen name="sp_12">12sp</dimen>
+    <dimen name="sp_14">14sp</dimen>
+    <dimen name="sp_16">16sp</dimen>
+
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="actionbar_height">46dp</dimen>
+
+    <dimen name="image_height">80dp</dimen>
+    <dimen name="image_width">80dp</dimen>
+
+    <dimen name="line_height">0.5dp</dimen>
+    <dimen name="len_4">4dp</dimen>
+    <dimen name="len_6">6dp</dimen>
+    <dimen name="len_8">8dp</dimen>
+    <dimen name="len_10">10dp</dimen>
+    <dimen name="len_20">20dp</dimen>
+    <dimen name="len_30">30dp</dimen>
+    <dimen name="len_40">40dp</dimen>
+    <dimen name="len_50">50dp</dimen>
+    <dimen name="len_60">60dp</dimen>
+    <dimen name="len_70">70dp</dimen>
+    <dimen name="len_80">80dp</dimen>
+    <dimen name="len_90">90dp</dimen>
+    <dimen name="len_100">100dp</dimen>
+    <dimen name="len_160">160dp</dimen>
+    <dimen name="len_180">180dp</dimen>
+
+    <dimen name="txt_12">12dp</dimen>
+    <dimen name="txt_14">14dp</dimen>
+    <dimen name="txt_16">16dp</dimen>
+    <dimen name="txt_18">18dp</dimen>
+    <dimen name="txt_20">20dp</dimen>
+    <dimen name="txt_22">22dp</dimen>
+    <dimen name="txt_24">24dp</dimen>
+
+
+    <dimen name="tab_space_2">2dp</dimen>
+    <dimen name="tab_space_4">4dp</dimen>
+    <dimen name="tab_space_8">8dp</dimen>
+
+
+</resources>

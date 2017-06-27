@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccc">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="@dimen/dp_2"
+        android:scrollbarThumbVertical="@color/app_color">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/dp_10">
+
+            <RelativeLayout
+                android:id="@+id/touxiang_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="@color/color_white"
+                android:paddingBottom="@dimen/dp_6"
+                android:paddingTop="@dimen/dp_6">
+
+                <EditText
+                    android:id="@+id/name1_edt"
+                    android:layout_alignParentTop="true"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@null"
+                    android:cursorVisible="true"
+                    android:gravity="left|top"
+                    android:hint="请输入Appid"
+                    android:maxLength="200"
+                    android:minHeight="40dp"
+                    android:paddingBottom="6dp"
+                    android:paddingLeft="@dimen/dp_10"
+                    android:paddingTop="6dp"
+                    android:textColor="@color/color_textcolor"
+                    android:textColorHint="@color/color_hint"
+                    android:textCursorDrawable="@drawable/cursor_edit"
+                    android:textSize="@dimen/txt_16" />
+
+
+                <EditText
+                    android:id="@+id/name2_edt"
+                    android:layout_below="@+id/name1_edt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@null"
+                    android:cursorVisible="true"
+                    android:gravity="left|top"
+                    android:hint="请输入Secret"
+                    android:maxLength="200"
+                    android:minHeight="40dp"
+                    android:paddingBottom="6dp"
+                    android:paddingLeft="@dimen/dp_10"
+                    android:paddingTop="6dp"
+                    android:textColor="@color/color_textcolor"
+                    android:textColorHint="@color/color_hint"
+                    android:textCursorDrawable="@drawable/cursor_edit"
+                    android:textSize="@dimen/txt_16" />
+
+                <EditText
+                    android:id="@+id/path_edt"
+                    android:layout_below="@+id/name2_edt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@null"
+                    android:cursorVisible="true"
+                    android:gravity="left|top"
+                    android:hint="类似于pages/index/index"
+                    android:maxLength="200"
+                    android:minHeight="40dp"
+                    android:paddingBottom="6dp"
+                    android:paddingLeft="@dimen/dp_10"
+                    android:paddingTop="6dp"
+                    android:textColor="@color/color_textcolor"
+                    android:textColorHint="@color/color_hint"
+                    android:textCursorDrawable="@drawable/cursor_edit"
+                    android:textSize="@dimen/txt_16" />
+
+                <EditText
+                    android:id="@+id/width_edt"
+                    android:layout_below="@+id/path_edt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@null"
+                    android:inputType="phone|number"
+                    android:cursorVisible="true"
+                    android:gravity="left|top"
+                    android:hint="二维码的宽度（不填默认430）"
+                    android:maxLength="200"
+                    android:minHeight="40dp"
+                    android:paddingBottom="6dp"
+                    android:paddingLeft="@dimen/dp_10"
+                    android:paddingTop="6dp"
+                    android:textColor="@color/color_textcolor"
+                    android:textColorHint="@color/color_hint"
+                    android:textCursorDrawable="@drawable/cursor_edit"
+                    android:textSize="@dimen/txt_16" />
+            </RelativeLayout>
+            <Button
+                android:id="@+id/login1_btn"
+                style="@style/btn_login_sure_rect_style"
+                android:layout_width="fill_parent"
+                android:layout_height="46dp"
+                android:layout_below="@+id/touxiang_lay"
+                android:layout_marginBottom="@dimen/dp_22"
+                android:layout_marginLeft="@dimen/dp_22"
+                android:layout_marginRight="@dimen/dp_22"
+                android:layout_marginTop="@dimen/dp_20"
+                android:text="点击生成" />
+
+
+            <ImageView
+                android:id="@+id/login_img"
+                style="@style/btn_login_sure_rect_style"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/login1_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@color/app_color" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

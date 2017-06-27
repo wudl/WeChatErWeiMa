@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyToolsLibrary</string>
+
+    <string name="qn_loading">正在加载...</string>
+    <!-- 通信超时的提示  与服务器的通信中断-->
+    <string name="error_so_timeout">网络不给力呀，请重试</string>
+    <!-- 联接超时的提示 -->
+    <string name="error_connect_timeout">网络不给力呀，请重试</string>
+    <string name="bad_json">网络不给力呀，要不您再试试？</string>
+    <!--     服务器数据有误,此功能暂时无法使用 -->
+    <string name="login_error">服务端出错啦！</string>
+
+</resources>

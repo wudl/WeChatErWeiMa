@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--     圆形图片 -->
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="border_overlay" format="boolean" />
+    </declare-styleable>
+
+
+    <!-- 自定义loading dialog -->
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- <item name="android:windowBackground">@drawable/loading_bg</item> -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+
+    <style name="SwipeBackLayout">
+        <item name="edge_size">50dip</item>
+        <item name="shadow_left">@drawable/shadow_left</item>
+        <item name="shadow_right">@drawable/shadow_right</item>
+        <item name="shadow_bottom">@drawable/shadow_bottom</item>
+    </style>
+
+
+
+
+    <style name="dialog_anim_slide_left" parent="android:Animation" mce_bogus="1">
+        <item name="android:windowExitAnimation">@anim/dialog_exit_slide_left</item>
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+    </style>
+
+    <style name="dialog_anim_slide_up" parent="android:Animation" mce_bogus="1">
+        <item name="android:windowExitAnimation">@anim/dialog_exit_slide_up</item>
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+    </style>
+
+    <style name="dialog_anim_fade_out" parent="android:Animation" mce_bogus="1">
+        <item name="android:windowExitAnimation">@anim/dialog_exit_fade_out</item>
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+    </style>
+
+
+    <style name="PopupAnimation" parent="android:Animation">
+    <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+    <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+</resources>

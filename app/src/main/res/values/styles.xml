@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!--        高大上背景的时候出现的按钮的风格按钮 直角按钮，默认是浅蓝 -->
+    <style name="btn_login_sure_rect_style">
+        <item name="android:background">@drawable/button_corn_green_selector</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textSize">@dimen/txt_16</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

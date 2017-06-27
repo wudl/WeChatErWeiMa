@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">小程序二维码生成器</string>
+
+
+    <string name="qn_yesterday">昨天</string>
+    <string name="qn_hour">小时</string>
+    <string name="qn_minute">分钟</string>
+    <string name="qn_second">秒</string>
+    <string name="qn_sun_str">周日</string>
+    <string name="qn_monday_str">周一</string>
+    <string name="qn_tuesday_str">周二</string>
+    <string name="qn_wednesday_str">周三</string>
+    <string name="qn_thursday_str">周四</string>
+    <string name="qn_friday_str">周五</string>
+    <string name="qn_saturday_str">周六</string>
+    <string name="qn_sun_str_two">星期天</string>
+    <string name="qn_monday_str_two">星期一</string>
+    <string name="qn_tuesday_str_two">星期二</string>
+    <string name="qn_wednesday_str_two">星期三</string>
+    <string name="qn_thursday_str_two">星期四</string>
+    <string name="qn_friday_str_two">星期五</string>
+    <string name="qn_saturday_str_two">星期六</string>
+
+
+</resources>

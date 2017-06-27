@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="tool_white">#ffffff</color>
+
+    <color name="tool_dark">#777777</color>
+
+    <color name="txt_dark_app">#54000000</color>
+
+    <color name="txt_black_app">#87000000</color>
+
+    <color name="color_white_app">#ffffff</color>
+
+    <color name="actionbar_bg_app">#ffffff</color>
+
+
+    <color name="color_transparent_app">#00000000</color>
+
+    <dimen name="corner_radius_app">4dp</dimen>
+</resources>
